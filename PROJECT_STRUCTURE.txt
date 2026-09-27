@@ -1,0 +1,29 @@
+SIH_Border_Surveillance_AI/
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── config.py
+│   │   ├── database.py
+│   │   ├── schemas.py
+│   │   ├── routers/
+│   │   │   ├── api.py
+│   │   │   └── media.py
+│   │   └── services/
+│   │       ├── analytics.py
+│   │       └── job_manager.py
+│   └── requirements.txt
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   ├── styles.css
+│   │   ├── components/
+│   │   └── lib/api.js
+│   ├── package.json
+│   └── vite.config.js
+├── storage/
+├── .env.example
+├── .gitignore
+├── README.md
+├── start_backend.ps1
+└── start_frontend.ps1
